@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FCA4D04FE855FF555469EE3A5889C6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D6CCEA08C7EEB5114074752CFB9A2D /* Error.swift */; };
+		219E50E362FFF3B09D0CA7D6A3FFA738 /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D795510298CA99ECA123E3060688F4 /* Turbolinks-dummy.m */; };
+		2F0219CD52C6EA577AD37EEC4BB70BC0 /* Pods-Lilypad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F0B1E949593DBEEABB8C60A5EE7BED /* Pods-Lilypad-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		315A72A9D8BBF26F79AEFAA9CF957480 /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C5E65AA88221CF8E747F77776221EB /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4977BBADFC4AD8075319C7ED447A2213 /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B882BCC12526D81B8783C1D73082E /* ScriptMessage.swift */; };
+		5605C732C9868A6F0849FF636DE20998 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657231962182BA91161D5D0C06106C53 /* VisitableViewController.swift */; };
+		6028937FD50BC72C4AE31F49A12A0A75 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C003F3A4E088428F20022B5D6FD96CA /* Session.swift */; };
+		76636CD9AD21D05FC3050518E2D3468E /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6048B7BC8F247A23662F92572D0FB9EA /* Visit.swift */; };
+		938128C98BB1100CE58A35DD4D6B9BE9 /* Pods-Lilypad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B44A377C0541B6E531EE378F67D5154 /* Pods-Lilypad-dummy.m */; };
+		A27265B5B156B4CC5FE49C12E3457C90 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76631E28DAB91F8086044541CFE7925D /* Action.swift */; };
+		BB1EAFADB13A3261706DD47083C6C5BC /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8B2EEB78D4CE23AD07DFCD03967B8 /* Visitable.swift */; };
+		C80EF0D9DA68275583FDE61E53FED5E1 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF1CA7EB18100C0CD6AB3992E29F8F /* VisitableView.swift */; };
+		E3EF96E6BDD79840B1116E14AF2269DA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A9800017A43EBAEB430B9188C013FA /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C823DFA714DC4318A22DDEBD45DF8802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B1A9BE7608BAEAAF7EE84D6CC9DD8D;
+			remoteInfo = Turbolinks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068B882BCC12526D81B8783C1D73082E /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
+		13C5E65AA88221CF8E747F77776221EB /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
+		1842EAD6346475B07EFAA7CED6D76A1D /* Pods-Lilypad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad.debug.xcconfig"; sourceTree = "<group>"; };
+		28D6CCEA08C7EEB5114074752CFB9A2D /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
+		2F00A71B659689A8AA8F8CA94FCB3B83 /* Pods-Lilypad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lilypad.modulemap"; sourceTree = "<group>"; };
+		3D4DDBAE9AFB549BB7032E00B283E4D2 /* Pods-Lilypad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad.release.xcconfig"; sourceTree = "<group>"; };
+		5C003F3A4E088428F20022B5D6FD96CA /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
+		5E35F1AC4F3E7F6A38F3CC8F44905624 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Turbolinks.modulemap; sourceTree = "<group>"; };
+		5F875EEF9F305DC98BBDEF76AC73B0E6 /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
+		6048B7BC8F247A23662F92572D0FB9EA /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
+		657231962182BA91161D5D0C06106C53 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
+		66F0B1E949593DBEEABB8C60A5EE7BED /* Pods-Lilypad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lilypad-umbrella.h"; sourceTree = "<group>"; };
+		76631E28DAB91F8086044541CFE7925D /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
+		7CB42763DFBC932660E15CBE247898A9 /* Pods-Lilypad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lilypad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89800525BB72B89EF54856B42E5C1D91 /* libTurbolinks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTurbolinks.a; path = libTurbolinks.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B89E7D427F1450487471549317E11B /* Pods-Lilypad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lilypad-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B44A377C0541B6E531EE378F67D5154 /* Pods-Lilypad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lilypad-dummy.m"; sourceTree = "<group>"; };
+		9BC8B2EEB78D4CE23AD07DFCD03967B8 /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBF1CA7EB18100C0CD6AB3992E29F8F /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
+		A1A9800017A43EBAEB430B9188C013FA /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
+		B81827F669A6993BE5282BEBA9618D86 /* libPods-Lilypad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Lilypad.a"; path = "libPods-Lilypad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4418C2A47248BF540D2E9462C015F62 /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
+		CAE30DB996B40E5E21C7E4470C9D87CD /* Pods-Lilypad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lilypad-resources.sh"; sourceTree = "<group>"; };
+		E2D795510298CA99ECA123E3060688F4 /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
+		F6990578DB912F7073F349C781B01F8C /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9021206C7273469139EF975A060CD19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968CE370D0A96AB5EE498AD5A216F3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F3D22B027AC9EEE4163EECC20F3C7D /* Pods-Lilypad */ = {
+			isa = PBXGroup;
+			children = (
+				2F00A71B659689A8AA8F8CA94FCB3B83 /* Pods-Lilypad.modulemap */,
+				7CB42763DFBC932660E15CBE247898A9 /* Pods-Lilypad-acknowledgements.markdown */,
+				90B89E7D427F1450487471549317E11B /* Pods-Lilypad-acknowledgements.plist */,
+				9B44A377C0541B6E531EE378F67D5154 /* Pods-Lilypad-dummy.m */,
+				CAE30DB996B40E5E21C7E4470C9D87CD /* Pods-Lilypad-resources.sh */,
+				66F0B1E949593DBEEABB8C60A5EE7BED /* Pods-Lilypad-umbrella.h */,
+				1842EAD6346475B07EFAA7CED6D76A1D /* Pods-Lilypad.debug.xcconfig */,
+				3D4DDBAE9AFB549BB7032E00B283E4D2 /* Pods-Lilypad.release.xcconfig */,
+			);
+			name = "Pods-Lilypad";
+			path = "Target Support Files/Pods-Lilypad";
+			sourceTree = "<group>";
+		};
+		077872B03E52EBC9704296E241E65A05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDDED23D6B9774E6F0FA596F32868823 /* Turbolinks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A99ED1BC811A3C0B9B42A7A478ACB34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02F3D22B027AC9EEE4163EECC20F3C7D /* Pods-Lilypad */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46EE65D0AD0855CA8F3FC13378FD1CB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E35F1AC4F3E7F6A38F3CC8F44905624 /* Turbolinks.modulemap */,
+				C4418C2A47248BF540D2E9462C015F62 /* Turbolinks.xcconfig */,
+				E2D795510298CA99ECA123E3060688F4 /* Turbolinks-dummy.m */,
+				5F875EEF9F305DC98BBDEF76AC73B0E6 /* Turbolinks-prefix.pch */,
+				13C5E65AA88221CF8E747F77776221EB /* Turbolinks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Turbolinks";
+			sourceTree = "<group>";
+		};
+		8697E99F60BD100DE880556ABA9CFD93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6990578DB912F7073F349C781B01F8C /* WebView.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6A3674D523EBEBED61C4E249763722F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B81827F669A6993BE5282BEBA9618D86 /* libPods-Lilypad.a */,
+				89800525BB72B89EF54856B42E5C1D91 /* libTurbolinks.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDED23D6B9774E6F0FA596F32868823 /* Turbolinks */ = {
+			isa = PBXGroup;
+			children = (
+				76631E28DAB91F8086044541CFE7925D /* Action.swift */,
+				28D6CCEA08C7EEB5114074752CFB9A2D /* Error.swift */,
+				068B882BCC12526D81B8783C1D73082E /* ScriptMessage.swift */,
+				5C003F3A4E088428F20022B5D6FD96CA /* Session.swift */,
+				6048B7BC8F247A23662F92572D0FB9EA /* Visit.swift */,
+				9BC8B2EEB78D4CE23AD07DFCD03967B8 /* Visitable.swift */,
+				9DBF1CA7EB18100C0CD6AB3992E29F8F /* VisitableView.swift */,
+				657231962182BA91161D5D0C06106C53 /* VisitableViewController.swift */,
+				A1A9800017A43EBAEB430B9188C013FA /* WebView.swift */,
+				8697E99F60BD100DE880556ABA9CFD93 /* Resources */,
+				46EE65D0AD0855CA8F3FC13378FD1CB8 /* Support Files */,
+			);
+			name = Turbolinks;
+			path = Turbolinks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				077872B03E52EBC9704296E241E65A05 /* Pods */,
+				A6A3674D523EBEBED61C4E249763722F /* Products */,
+				1A99ED1BC811A3C0B9B42A7A478ACB34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3ED03BEDF9C9BE6378A45FD0ABA4102 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0219CD52C6EA577AD37EEC4BB70BC0 /* Pods-Lilypad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A9CA9C049F444AC5E703F3FC40F478 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315A72A9D8BBF26F79AEFAA9CF957480 /* Turbolinks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29B1A9BE7608BAEAAF7EE84D6CC9DD8D /* Turbolinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48AF4A33277CC1D9340140533B12E8A /* Build configuration list for PBXNativeTarget "Turbolinks" */;
+			buildPhases = (
+				D0A9CA9C049F444AC5E703F3FC40F478 /* Headers */,
+				085332FE94E5563A7228E731540073C3 /* Sources */,
+				968CE370D0A96AB5EE498AD5A216F3E3 /* Frameworks */,
+				18D1F37262DB560E3C01D01EEA9E5770 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Turbolinks;
+			productName = Turbolinks;
+			productReference = 89800525BB72B89EF54856B42E5C1D91 /* libTurbolinks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E72881CEDFDA3A0CE8A648AAB5756935 /* Pods-Lilypad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD8E051F69D15433AD2AA056EE486BF /* Build configuration list for PBXNativeTarget "Pods-Lilypad" */;
+			buildPhases = (
+				C3ED03BEDF9C9BE6378A45FD0ABA4102 /* Headers */,
+				BF9DD8E3EE95E852A932202EF59F94E9 /* Sources */,
+				9021206C7273469139EF975A060CD19F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E903B55130CF2A9D6232007EFBD7F83 /* PBXTargetDependency */,
+			);
+			name = "Pods-Lilypad";
+			productName = "Pods-Lilypad";
+			productReference = B81827F669A6993BE5282BEBA9618D86 /* libPods-Lilypad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A6A3674D523EBEBED61C4E249763722F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E72881CEDFDA3A0CE8A648AAB5756935 /* Pods-Lilypad */,
+				29B1A9BE7608BAEAAF7EE84D6CC9DD8D /* Turbolinks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18D1F37262DB560E3C01D01EEA9E5770 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Turbolinks/Turbolinks.modulemap",
+				"${PODS_ROOT}/Headers/Public/Turbolinks/Turbolinks-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Turbolinks-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Turbolinks/Turbolinks.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Turbolinks/Turbolinks-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085332FE94E5563A7228E731540073C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27265B5B156B4CC5FE49C12E3457C90 /* Action.swift in Sources */,
+				07FCA4D04FE855FF555469EE3A5889C6 /* Error.swift in Sources */,
+				4977BBADFC4AD8075319C7ED447A2213 /* ScriptMessage.swift in Sources */,
+				6028937FD50BC72C4AE31F49A12A0A75 /* Session.swift in Sources */,
+				219E50E362FFF3B09D0CA7D6A3FFA738 /* Turbolinks-dummy.m in Sources */,
+				76636CD9AD21D05FC3050518E2D3468E /* Visit.swift in Sources */,
+				BB1EAFADB13A3261706DD47083C6C5BC /* Visitable.swift in Sources */,
+				C80EF0D9DA68275583FDE61E53FED5E1 /* VisitableView.swift in Sources */,
+				5605C732C9868A6F0849FF636DE20998 /* VisitableViewController.swift in Sources */,
+				E3EF96E6BDD79840B1116E14AF2269DA /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9DD8E3EE95E852A932202EF59F94E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938128C98BB1100CE58A35DD4D6B9BE9 /* Pods-Lilypad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E903B55130CF2A9D6232007EFBD7F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Turbolinks;
+			target = 29B1A9BE7608BAEAAF7EE84D6CC9DD8D /* Turbolinks */;
+			targetProxy = C823DFA714DC4318A22DDEBD45DF8802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06B1F950BA953DADB4775F1F2DD25EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4418C2A47248BF540D2E9462C015F62 /* Turbolinks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Turbolinks/Turbolinks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Turbolinks/Turbolinks.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Turbolinks;
+				PRODUCT_NAME = Turbolinks;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		639C327A5FFDE5D2078767CED762AF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1842EAD6346475B07EFAA7CED6D76A1D /* Pods-Lilypad.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lilypad/Pods-Lilypad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66B9135019605C67BCFEAF0E3E10D366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4DDBAE9AFB549BB7032E00B283E4D2 /* Pods-Lilypad.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lilypad/Pods-Lilypad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D361F64EC6F446CA6916CCF4F9405482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4418C2A47248BF540D2E9462C015F62 /* Turbolinks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Turbolinks/Turbolinks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Turbolinks/Turbolinks.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Turbolinks;
+				PRODUCT_NAME = Turbolinks;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD8E051F69D15433AD2AA056EE486BF /* Build configuration list for PBXNativeTarget "Pods-Lilypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639C327A5FFDE5D2078767CED762AF18 /* Debug */,
+				66B9135019605C67BCFEAF0E3E10D366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48AF4A33277CC1D9340140533B12E8A /* Build configuration list for PBXNativeTarget "Turbolinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B1F950BA953DADB4775F1F2DD25EE1 /* Debug */,
+				D361F64EC6F446CA6916CCF4F9405482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
