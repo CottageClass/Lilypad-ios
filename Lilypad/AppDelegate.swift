@@ -9,6 +9,7 @@
 import WebKit
 import Turbolinks
 import UserNotifications
+//import Contacts
 
 enum Environment: String {
     case development = "Development"
@@ -24,6 +25,7 @@ var environment: Environment = .none
 class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
+//    let contactStore = CNContactStore()
     
     var navigationController = UINavigationController()
     lazy var session: Session = {
@@ -37,6 +39,25 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
     }()
     
 
+//         var contacts = [CNContact]()
+//         let keys = [
+//               CNContactFormatter.descriptorForRequiredKeys(for: .fullName),
+//               CNContactPhoneNumbersKey,
+//               CNContactEmailAddressesKey,
+//           ] as [Any]
+//         let request = CNContactFetchRequest(keysToFetch: keys as! [CNKeyDescriptor])
+//
+//         do {
+//             try self.contactStore.enumerateContacts(with: request) {
+//                 (contact, stop) in
+//                 // Array containing all unified contacts from everywhere
+//                 contacts.append(contact)
+//                 print(contact)
+//             }
+//         }
+//         catch {
+//             print("unable to fetch contacts")
+//         }
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let tokenParts = deviceToken.map { data -> String in
             return String(format: "%02.2hhx", data)
