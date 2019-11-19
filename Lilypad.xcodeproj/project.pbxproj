@@ -50,9 +50,7 @@
 		BE10B1A2237450140034E599 /* ScriptMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptMessageHandler.swift; sourceTree = "<group>"; };
 		BE6010F8237454F200739D22 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BE60110D2374A6C000739D22 /* Lilypad-staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lilypad-staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE60110E2374A6C000739D22 /* Lilypad-development copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Lilypad-development copy-Info.plist"; path = "/Users/arikardasis/cottageClass/Lilypad/Lilypad-development copy-Info.plist"; sourceTree = "<absolute>"; };
 		BE6011222374A6C300739D22 /* Lilypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lilypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE6011232374A6C300739D22 /* Lilypad-development copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Lilypad-development copy copy-Info.plist"; path = "/Users/arikardasis/cottageClass/Lilypad/Lilypad-development copy copy-Info.plist"; sourceTree = "<absolute>"; };
 		BE6011242374AB1100739D22 /* Lilypad-development.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lilypad-development.entitlements"; sourceTree = "<group>"; };
 		BE6011252374AB1600739D22 /* Lilypad-staging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lilypad-staging.entitlements"; sourceTree = "<group>"; };
 		BE6011262374AB1A00739D22 /* Lilypad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lilypad.entitlements; sourceTree = "<group>"; };
@@ -104,8 +102,6 @@
 				BE10B18823744FCA0034E599 /* Products */,
 				CC5A0A9FF47C7AD2A321BA40 /* Pods */,
 				BC7DD4EAA29248D4F6F2D7E4 /* Frameworks */,
-				BE60110E2374A6C000739D22 /* Lilypad-development copy-Info.plist */,
-				BE6011232374A6C300739D22 /* Lilypad-development copy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -627,7 +623,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
 				DEVELOPMENT_TEAM = H2N26DZ69G;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Lilypad-development copy-Info.plist";
+				INFOPLIST_FILE = Lilypad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -652,7 +648,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
 				DEVELOPMENT_TEAM = H2N26DZ69G;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Lilypad-development copy-Info.plist";
+				INFOPLIST_FILE = Lilypad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -677,7 +673,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
 				DEVELOPMENT_TEAM = H2N26DZ69G;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Lilypad-development copy copy-Info.plist";
+				INFOPLIST_FILE = Lilypad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -702,7 +698,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
 				DEVELOPMENT_TEAM = H2N26DZ69G;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Lilypad-development copy copy-Info.plist";
+				INFOPLIST_FILE = Lilypad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
