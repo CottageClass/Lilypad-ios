@@ -34,11 +34,13 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
         configuration.applicationNameForUserAgent = "LilyPadIOSNative"
         configuration.userContentController.add(scriptMessageHandler, name: "lilyPad")
         var sess = Session(webViewConfiguration: configuration)
-//        sess.webView.scrollView.bounces = false
+        sess.webView.scrollView.bounces = false
+
         return sess
     }()
-    
 
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+         var url: String
 //         var contacts = [CNContact]()
 //         let keys = [
 //               CNContactFormatter.descriptorForRequiredKeys(for: .fullName),
@@ -58,6 +60,49 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
 //         catch {
 //             print("unable to fetch contacts")
 //         }
+         
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWasHidden), name: UIResponder.keyboardDidHideNotification, object: nil)
+
+        setEnvironment()
+         let notificationOption = launchOptions?[.remoteNotification]
+
+         if let notification = notificationOption as? [String: AnyObject],
+             let aps = notification["aps"] as? NSDictionary {
+             url = aps.value(forKeyPath: "alert.url") as! String
+
+          } else {
+              switch environment {
+              case .development:
+                  //url = "http://localhost:3000"
+                  url = "https://cottageclass.ngrok.io"
+                  break
+              case .staging:
+                  url = "https://kidsclub-staging.herokuapp.com"
+                  break
+              case .production:
+                  url = "https://joinlilypad.com"
+                  break
+              case .none:
+                  url = ""
+                  break
+              }
+         }
+
+         window?.rootViewController = navigationController
+         session.delegate = self
+         UNUserNotificationCenter.current().delegate = self
+
+     
+         visit(URL: URL(string: url)!)
+         return true
+     }
+    
+    @objc
+    func keyboardWasHidden(notification: Notification) {
+        let dataDict:[String: String] = ["name": "keyboardHidden"]
+        dispatchMessageToWebkit(dataDict as AnyObject)
+    }
+    
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let tokenParts = deviceToken.map { data -> String in
             return String(format: "%02.2hhx", data)
@@ -76,7 +121,7 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
-        var aps = (userInfo["aps"] as! NSDictionary)
+        let aps = (userInfo["aps"] as! NSDictionary)
         let url = aps.value(forKeyPath: "alert.url")
         visit(URL: URL(string: url as! String)!)
     }
@@ -84,44 +129,6 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
     func applicationWillEnterForeground(_ application: UIApplication) {
         let dataDict:[String: String] = ["name": "applicationDidEnterForeground"]
         (UIApplication.shared.delegate as! AppDelegate).dispatchMessageToWebkit((dataDict as AnyObject))
-    }
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        var url: String
-
-        setEnvironment()
-        let notificationOption = launchOptions?[.remoteNotification]
-
-        if let notification = notificationOption as? [String: AnyObject],
-            let aps = notification["aps"] as? NSDictionary {
-            url = aps.value(forKeyPath: "alert.url") as! String
-
-         } else {
-             switch environment {
-             case .development:
-                 //url = "http://localhost:3000"
-                 url = "https://cottageclass.ngrok.io"
-                 break
-             case .staging:
-                 url = "https://kidsclub-staging.herokuapp.com"
-                 break
-             case .production:
-                 url = "https://joinlilypad.com"
-                 break
-             case .none:
-                 url = ""
-                 break
-             }
-        }
-
-        window?.rootViewController = navigationController
-        session.delegate = self
-        UNUserNotificationCenter.current().delegate = self
-
-    
-        visit(URL: URL(string: url)!)
-        return true
-
     }
     
     func setEnvironment() {
