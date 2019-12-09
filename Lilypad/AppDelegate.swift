@@ -89,7 +89,7 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
          }
 
          window?.rootViewController = navigationController
-         session.delegate = self
+        session.delegate = self
          UNUserNotificationCenter.current().delegate = self
 
      
@@ -97,11 +97,22 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
          return true
      }
     
-    @objc
-    func keyboardWasHidden(notification: Notification) {
-        let dataDict:[String: String] = ["name": "keyboardHidden"]
-        dispatchMessageToWebkit(dataDict as AnyObject)
-    }
+     @objc
+     func keyboardWasShown(notification: Notification) {
+        if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
+            let keyboardRectangle = keyboardFrame.cgRectValue
+            let keyboardHeight = keyboardRectangle.height
+            print(keyboardHeight)
+            session.webView.scrollView.contentInset = UIEdgeInsets(top: 0,left: 0,bottom: keyboardHeight,right: 0)
+        }
+     }
+     
+     @objc
+     func keyboardWasHidden(notification: Notification) {
+        session.webView.scrollView.contentInset = UIEdgeInsets(top: 0,left: 0,bottom: 0,right: 0)
+         let dataDict:[String: String] = ["name": "keyboardHidden"]
+         dispatchMessageToWebkit(dataDict as AnyObject)
+     }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let tokenParts = deviceToken.map { data -> String in
