@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		07FCA4D04FE855FF555469EE3A5889C6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D6CCEA08C7EEB5114074752CFB9A2D /* Error.swift */; };
 		219E50E362FFF3B09D0CA7D6A3FFA738 /* Turbolinks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D795510298CA99ECA123E3060688F4 /* Turbolinks-dummy.m */; };
-		2F0219CD52C6EA577AD37EEC4BB70BC0 /* Pods-Lilypad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F0B1E949593DBEEABB8C60A5EE7BED /* Pods-Lilypad-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F0219CD52C6EA577AD37EEC4BB70BC0 /* Pods-Lilypad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903FAF58D86D66A28D107A0B29A0046E /* Pods-Lilypad-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		315A72A9D8BBF26F79AEFAA9CF957480 /* Turbolinks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C5E65AA88221CF8E747F77776221EB /* Turbolinks-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4977BBADFC4AD8075319C7ED447A2213 /* ScriptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B882BCC12526D81B8783C1D73082E /* ScriptMessage.swift */; };
 		5605C732C9868A6F0849FF636DE20998 /* VisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657231962182BA91161D5D0C06106C53 /* VisitableViewController.swift */; };
+		5EAF005852626DC3F46F23014D82E304 /* Pods-Lilypad-development-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8943A971D8CD15D0C616CA740BC90A24 /* Pods-Lilypad-development-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6028937FD50BC72C4AE31F49A12A0A75 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C003F3A4E088428F20022B5D6FD96CA /* Session.swift */; };
+		6D1949CAE04FBD4E8B7883317E6A478F /* Pods-Lilypad-staging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9736A37C9C3B3CD49367DFFCDD23AD2C /* Pods-Lilypad-staging-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		76636CD9AD21D05FC3050518E2D3468E /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6048B7BC8F247A23662F92572D0FB9EA /* Visit.swift */; };
-		938128C98BB1100CE58A35DD4D6B9BE9 /* Pods-Lilypad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B44A377C0541B6E531EE378F67D5154 /* Pods-Lilypad-dummy.m */; };
+		938128C98BB1100CE58A35DD4D6B9BE9 /* Pods-Lilypad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A306296F2E7AD23A69ABFA9982FA979E /* Pods-Lilypad-dummy.m */; };
 		A27265B5B156B4CC5FE49C12E3457C90 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76631E28DAB91F8086044541CFE7925D /* Action.swift */; };
 		BB1EAFADB13A3261706DD47083C6C5BC /* Visitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8B2EEB78D4CE23AD07DFCD03967B8 /* Visitable.swift */; };
+		C5BAD03D9E0893AB8BCEDC3CECA6CB5D /* Pods-Lilypad-staging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97966F21044425FFE121D2D8B9355B50 /* Pods-Lilypad-staging-dummy.m */; };
 		C80EF0D9DA68275583FDE61E53FED5E1 /* VisitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF1CA7EB18100C0CD6AB3992E29F8F /* VisitableView.swift */; };
+		D5245A67A03F4A37DBF2649B9E6F58D3 /* Pods-Lilypad-development-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE70CD7388C0BFB9E4BE4A5EC59B8C5 /* Pods-Lilypad-development-dummy.m */; };
 		E3EF96E6BDD79840B1116E14AF2269DA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A9800017A43EBAEB430B9188C013FA /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0281099F11A89EDB971466259FDFC52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B1A9BE7608BAEAAF7EE84D6CC9DD8D;
+			remoteInfo = Turbolinks;
+		};
 		C823DFA714DC4318A22DDEBD45DF8802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B1A9BE7608BAEAAF7EE84D6CC9DD8D;
+			remoteInfo = Turbolinks;
+		};
+		CEE18BFB7C2F5709BBFDACE0BECE7AFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -33,35 +51,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021076F6E9F9F08F38EF4189EE10995C /* Pods-Lilypad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad.release.xcconfig"; sourceTree = "<group>"; };
 		068B882BCC12526D81B8783C1D73082E /* ScriptMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptMessage.swift; path = Turbolinks/ScriptMessage.swift; sourceTree = "<group>"; };
+		0EE63E46CAF84DFC9525BD6DEDE2B4E6 /* Pods-Lilypad-staging-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lilypad-staging-acknowledgements.markdown"; sourceTree = "<group>"; };
 		13C5E65AA88221CF8E747F77776221EB /* Turbolinks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-umbrella.h"; sourceTree = "<group>"; };
-		1842EAD6346475B07EFAA7CED6D76A1D /* Pods-Lilypad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad.debug.xcconfig"; sourceTree = "<group>"; };
+		1D9F622C2EF8667A2F6F5D29C18F4D1B /* Pods-Lilypad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad.debug.xcconfig"; sourceTree = "<group>"; };
 		28D6CCEA08C7EEB5114074752CFB9A2D /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Turbolinks/Error.swift; sourceTree = "<group>"; };
-		2F00A71B659689A8AA8F8CA94FCB3B83 /* Pods-Lilypad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lilypad.modulemap"; sourceTree = "<group>"; };
-		3D4DDBAE9AFB549BB7032E00B283E4D2 /* Pods-Lilypad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad.release.xcconfig"; sourceTree = "<group>"; };
+		2FDD5117660B4647701D80088A9F6A39 /* Pods-Lilypad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lilypad-resources.sh"; sourceTree = "<group>"; };
+		4643DB78DC7FD850B365DA65A83AA19C /* libPods-Lilypad-staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Lilypad-staging.a"; path = "libPods-Lilypad-staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527BD1C673A760D0DEA1A0433E145A85 /* Pods-Lilypad-development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad-development.debug.xcconfig"; sourceTree = "<group>"; };
 		5C003F3A4E088428F20022B5D6FD96CA /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Turbolinks/Session.swift; sourceTree = "<group>"; };
 		5E35F1AC4F3E7F6A38F3CC8F44905624 /* Turbolinks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Turbolinks.modulemap; sourceTree = "<group>"; };
 		5F875EEF9F305DC98BBDEF76AC73B0E6 /* Turbolinks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Turbolinks-prefix.pch"; sourceTree = "<group>"; };
+		6026D51F65D11C1DF890A6E73C0B3598 /* Pods-Lilypad-development-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lilypad-development-acknowledgements.plist"; sourceTree = "<group>"; };
 		6048B7BC8F247A23662F92572D0FB9EA /* Visit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visit.swift; path = Turbolinks/Visit.swift; sourceTree = "<group>"; };
 		657231962182BA91161D5D0C06106C53 /* VisitableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableViewController.swift; path = Turbolinks/VisitableViewController.swift; sourceTree = "<group>"; };
-		66F0B1E949593DBEEABB8C60A5EE7BED /* Pods-Lilypad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lilypad-umbrella.h"; sourceTree = "<group>"; };
 		76631E28DAB91F8086044541CFE7925D /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Turbolinks/Action.swift; sourceTree = "<group>"; };
-		7CB42763DFBC932660E15CBE247898A9 /* Pods-Lilypad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lilypad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A3D74EE3AC7EA02121BD477867836E4 /* Pods-Lilypad-staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad-staging.release.xcconfig"; sourceTree = "<group>"; };
+		8943A971D8CD15D0C616CA740BC90A24 /* Pods-Lilypad-development-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lilypad-development-umbrella.h"; sourceTree = "<group>"; };
 		89800525BB72B89EF54856B42E5C1D91 /* libTurbolinks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTurbolinks.a; path = libTurbolinks.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		90B89E7D427F1450487471549317E11B /* Pods-Lilypad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lilypad-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B44A377C0541B6E531EE378F67D5154 /* Pods-Lilypad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lilypad-dummy.m"; sourceTree = "<group>"; };
+		903FAF58D86D66A28D107A0B29A0046E /* Pods-Lilypad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lilypad-umbrella.h"; sourceTree = "<group>"; };
+		92B64341C4342985402EE64CB4A97936 /* Pods-Lilypad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lilypad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9736A37C9C3B3CD49367DFFCDD23AD2C /* Pods-Lilypad-staging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lilypad-staging-umbrella.h"; sourceTree = "<group>"; };
+		97966F21044425FFE121D2D8B9355B50 /* Pods-Lilypad-staging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lilypad-staging-dummy.m"; sourceTree = "<group>"; };
 		9BC8B2EEB78D4CE23AD07DFCD03967B8 /* Visitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitable.swift; path = Turbolinks/Visitable.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBF1CA7EB18100C0CD6AB3992E29F8F /* VisitableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitableView.swift; path = Turbolinks/VisitableView.swift; sourceTree = "<group>"; };
 		A1A9800017A43EBAEB430B9188C013FA /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Turbolinks/WebView.swift; sourceTree = "<group>"; };
+		A306296F2E7AD23A69ABFA9982FA979E /* Pods-Lilypad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lilypad-dummy.m"; sourceTree = "<group>"; };
+		A8187573586B7B440DF72D9C504BD5D6 /* Pods-Lilypad-development-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lilypad-development-resources.sh"; sourceTree = "<group>"; };
 		B81827F669A6993BE5282BEBA9618D86 /* libPods-Lilypad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Lilypad.a"; path = "libPods-Lilypad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB4802E25F43F93358583B180BE75B5 /* Pods-Lilypad-development-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lilypad-development-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF0B7FADC9B5F607B04EC99387CD8BCB /* Pods-Lilypad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lilypad.modulemap"; sourceTree = "<group>"; };
 		C4418C2A47248BF540D2E9462C015F62 /* Turbolinks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Turbolinks.xcconfig; sourceTree = "<group>"; };
-		CAE30DB996B40E5E21C7E4470C9D87CD /* Pods-Lilypad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lilypad-resources.sh"; sourceTree = "<group>"; };
+		CF11F19289C3D7FDCA6BA97685B215F5 /* Pods-Lilypad-development.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lilypad-development.modulemap"; sourceTree = "<group>"; };
+		D9D64FF0985C07010240F30622E1E10B /* Pods-Lilypad-staging-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lilypad-staging-resources.sh"; sourceTree = "<group>"; };
+		DA96C1CECD6CFBF6C1E09E4EB7395483 /* Pods-Lilypad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lilypad-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2D795510298CA99ECA123E3060688F4 /* Turbolinks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Turbolinks-dummy.m"; sourceTree = "<group>"; };
+		E574C607E289CE4C87D07838A07B6286 /* Pods-Lilypad-development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad-development.release.xcconfig"; sourceTree = "<group>"; };
+		EDE70CD7388C0BFB9E4BE4A5EC59B8C5 /* Pods-Lilypad-development-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lilypad-development-dummy.m"; sourceTree = "<group>"; };
+		F3CBBDB41889AD8B5C57A0DE01E108AD /* Pods-Lilypad-staging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lilypad-staging.modulemap"; sourceTree = "<group>"; };
 		F6990578DB912F7073F349C781B01F8C /* WebView.js */ = {isa = PBXFileReference; includeInIndex = 1; name = WebView.js; path = Turbolinks/WebView.js; sourceTree = "<group>"; };
+		F9E9F44A1C4FD8DECB6CE94E3E8073E8 /* Pods-Lilypad-staging-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lilypad-staging-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBF2785827FD572FC2AFFC5946FA17E2 /* libPods-Lilypad-development.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Lilypad-development.a"; path = "libPods-Lilypad-development.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD21B1555B8522A8A24A579ADE3AFEEA /* Pods-Lilypad-staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lilypad-staging.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3A7A5039B4833AC438449C998BA0E01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9021206C7273469139EF975A060CD19F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,25 +119,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F967BBAC5A982C515A8CA3E15A42DCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F3D22B027AC9EEE4163EECC20F3C7D /* Pods-Lilypad */ = {
-			isa = PBXGroup;
-			children = (
-				2F00A71B659689A8AA8F8CA94FCB3B83 /* Pods-Lilypad.modulemap */,
-				7CB42763DFBC932660E15CBE247898A9 /* Pods-Lilypad-acknowledgements.markdown */,
-				90B89E7D427F1450487471549317E11B /* Pods-Lilypad-acknowledgements.plist */,
-				9B44A377C0541B6E531EE378F67D5154 /* Pods-Lilypad-dummy.m */,
-				CAE30DB996B40E5E21C7E4470C9D87CD /* Pods-Lilypad-resources.sh */,
-				66F0B1E949593DBEEABB8C60A5EE7BED /* Pods-Lilypad-umbrella.h */,
-				1842EAD6346475B07EFAA7CED6D76A1D /* Pods-Lilypad.debug.xcconfig */,
-				3D4DDBAE9AFB549BB7032E00B283E4D2 /* Pods-Lilypad.release.xcconfig */,
-			);
-			name = "Pods-Lilypad";
-			path = "Target Support Files/Pods-Lilypad";
-			sourceTree = "<group>";
-		};
 		077872B03E52EBC9704296E241E65A05 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +137,44 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1A99ED1BC811A3C0B9B42A7A478ACB34 /* Targets Support Files */ = {
+		11F6AC36F2F5340C17E0427189158BF5 /* Pods-Lilypad-development */ = {
 			isa = PBXGroup;
 			children = (
-				02F3D22B027AC9EEE4163EECC20F3C7D /* Pods-Lilypad */,
+				CF11F19289C3D7FDCA6BA97685B215F5 /* Pods-Lilypad-development.modulemap */,
+				BDB4802E25F43F93358583B180BE75B5 /* Pods-Lilypad-development-acknowledgements.markdown */,
+				6026D51F65D11C1DF890A6E73C0B3598 /* Pods-Lilypad-development-acknowledgements.plist */,
+				EDE70CD7388C0BFB9E4BE4A5EC59B8C5 /* Pods-Lilypad-development-dummy.m */,
+				A8187573586B7B440DF72D9C504BD5D6 /* Pods-Lilypad-development-resources.sh */,
+				8943A971D8CD15D0C616CA740BC90A24 /* Pods-Lilypad-development-umbrella.h */,
+				527BD1C673A760D0DEA1A0433E145A85 /* Pods-Lilypad-development.debug.xcconfig */,
+				E574C607E289CE4C87D07838A07B6286 /* Pods-Lilypad-development.release.xcconfig */,
+			);
+			name = "Pods-Lilypad-development";
+			path = "Target Support Files/Pods-Lilypad-development";
+			sourceTree = "<group>";
+		};
+		18A24CAAAA71CEB96FD1C4D83BAC53EF /* Pods-Lilypad */ = {
+			isa = PBXGroup;
+			children = (
+				BF0B7FADC9B5F607B04EC99387CD8BCB /* Pods-Lilypad.modulemap */,
+				92B64341C4342985402EE64CB4A97936 /* Pods-Lilypad-acknowledgements.markdown */,
+				DA96C1CECD6CFBF6C1E09E4EB7395483 /* Pods-Lilypad-acknowledgements.plist */,
+				A306296F2E7AD23A69ABFA9982FA979E /* Pods-Lilypad-dummy.m */,
+				2FDD5117660B4647701D80088A9F6A39 /* Pods-Lilypad-resources.sh */,
+				903FAF58D86D66A28D107A0B29A0046E /* Pods-Lilypad-umbrella.h */,
+				1D9F622C2EF8667A2F6F5D29C18F4D1B /* Pods-Lilypad.debug.xcconfig */,
+				021076F6E9F9F08F38EF4189EE10995C /* Pods-Lilypad.release.xcconfig */,
+			);
+			name = "Pods-Lilypad";
+			path = "Target Support Files/Pods-Lilypad";
+			sourceTree = "<group>";
+		};
+		28CDB9BB9C35E8D57F5BDEE8941381CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A24CAAAA71CEB96FD1C4D83BAC53EF /* Pods-Lilypad */,
+				11F6AC36F2F5340C17E0427189158BF5 /* Pods-Lilypad-development */,
+				B178E5D047FB5425B87A2B927CE5923D /* Pods-Lilypad-staging */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -132,13 +200,31 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A6A3674D523EBEBED61C4E249763722F /* Products */ = {
+		ACAA6E0ACCD3731A078A522E8E6303B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B81827F669A6993BE5282BEBA9618D86 /* libPods-Lilypad.a */,
+				FBF2785827FD572FC2AFFC5946FA17E2 /* libPods-Lilypad-development.a */,
+				4643DB78DC7FD850B365DA65A83AA19C /* libPods-Lilypad-staging.a */,
 				89800525BB72B89EF54856B42E5C1D91 /* libTurbolinks.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B178E5D047FB5425B87A2B927CE5923D /* Pods-Lilypad-staging */ = {
+			isa = PBXGroup;
+			children = (
+				F3CBBDB41889AD8B5C57A0DE01E108AD /* Pods-Lilypad-staging.modulemap */,
+				0EE63E46CAF84DFC9525BD6DEDE2B4E6 /* Pods-Lilypad-staging-acknowledgements.markdown */,
+				F9E9F44A1C4FD8DECB6CE94E3E8073E8 /* Pods-Lilypad-staging-acknowledgements.plist */,
+				97966F21044425FFE121D2D8B9355B50 /* Pods-Lilypad-staging-dummy.m */,
+				D9D64FF0985C07010240F30622E1E10B /* Pods-Lilypad-staging-resources.sh */,
+				9736A37C9C3B3CD49367DFFCDD23AD2C /* Pods-Lilypad-staging-umbrella.h */,
+				FD21B1555B8522A8A24A579ADE3AFEEA /* Pods-Lilypad-staging.debug.xcconfig */,
+				7A3D74EE3AC7EA02121BD477867836E4 /* Pods-Lilypad-staging.release.xcconfig */,
+			);
+			name = "Pods-Lilypad-staging";
+			path = "Target Support Files/Pods-Lilypad-staging";
 			sourceTree = "<group>";
 		};
 		BDDED23D6B9774E6F0FA596F32868823 /* Turbolinks */ = {
@@ -166,8 +252,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				077872B03E52EBC9704296E241E65A05 /* Pods */,
-				A6A3674D523EBEBED61C4E249763722F /* Products */,
-				1A99ED1BC811A3C0B9B42A7A478ACB34 /* Targets Support Files */,
+				ACAA6E0ACCD3731A078A522E8E6303B0 /* Products */,
+				28CDB9BB9C35E8D57F5BDEE8941381CA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +267,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		183B5470606FD3F034DFB4A1B813D408 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAF005852626DC3F46F23014D82E304 /* Pods-Lilypad-development-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3ED03BEDF9C9BE6378A45FD0ABA4102 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,6 +288,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				315A72A9D8BBF26F79AEFAA9CF957480 /* Turbolinks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB3DBAE68F40E0D81193CDB2C5F127D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1949CAE04FBD4E8B7883317E6A478F /* Pods-Lilypad-staging-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +318,42 @@
 			name = Turbolinks;
 			productName = Turbolinks;
 			productReference = 89800525BB72B89EF54856B42E5C1D91 /* libTurbolinks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A4040F7466290B7EAE2862DF0DAF4C52 /* Pods-Lilypad-staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DE94B983F88F9DC67DDF018D8499E2 /* Build configuration list for PBXNativeTarget "Pods-Lilypad-staging" */;
+			buildPhases = (
+				FBB3DBAE68F40E0D81193CDB2C5F127D /* Headers */,
+				DEEFF498C819C754A0C0863AC4B5F1CC /* Sources */,
+				F967BBAC5A982C515A8CA3E15A42DCDD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDE436EC16909556E6147C1FB1AC696 /* PBXTargetDependency */,
+			);
+			name = "Pods-Lilypad-staging";
+			productName = "Pods-Lilypad-staging";
+			productReference = 4643DB78DC7FD850B365DA65A83AA19C /* libPods-Lilypad-staging.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7D35F2CB52DB4A071184FEE75B73653 /* Pods-Lilypad-development */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D890100459701D371DA5B74E00C66B /* Build configuration list for PBXNativeTarget "Pods-Lilypad-development" */;
+			buildPhases = (
+				183B5470606FD3F034DFB4A1B813D408 /* Headers */,
+				D8664377F30BDD96011EBD8D7FCC9EF8 /* Sources */,
+				3A7A5039B4833AC438449C998BA0E01C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E82B575C1393A6BF07128CFA7325DA /* PBXTargetDependency */,
+			);
+			name = "Pods-Lilypad-development";
+			productName = "Pods-Lilypad-development";
+			productReference = FBF2785827FD572FC2AFFC5946FA17E2 /* libPods-Lilypad-development.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E72881CEDFDA3A0CE8A648AAB5756935 /* Pods-Lilypad */ = {
@@ -246,18 +384,20 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A6A3674D523EBEBED61C4E249763722F /* Products */;
+			productRefGroup = ACAA6E0ACCD3731A078A522E8E6303B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E72881CEDFDA3A0CE8A648AAB5756935 /* Pods-Lilypad */,
+				C7D35F2CB52DB4A071184FEE75B73653 /* Pods-Lilypad-development */,
+				A4040F7466290B7EAE2862DF0DAF4C52 /* Pods-Lilypad-staging */,
 				29B1A9BE7608BAEAAF7EE84D6CC9DD8D /* Turbolinks */,
 			);
 		};
@@ -316,18 +456,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8664377F30BDD96011EBD8D7FCC9EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5245A67A03F4A37DBF2649B9E6F58D3 /* Pods-Lilypad-development-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEFF498C819C754A0C0863AC4B5F1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BAD03D9E0893AB8BCEDC3CECA6CB5D /* Pods-Lilypad-staging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		12E82B575C1393A6BF07128CFA7325DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Turbolinks;
+			target = 29B1A9BE7608BAEAAF7EE84D6CC9DD8D /* Turbolinks */;
+			targetProxy = CEE18BFB7C2F5709BBFDACE0BECE7AFE /* PBXContainerItemProxy */;
+		};
 		6E903B55130CF2A9D6232007EFBD7F83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Turbolinks;
 			target = 29B1A9BE7608BAEAAF7EE84D6CC9DD8D /* Turbolinks */;
 			targetProxy = C823DFA714DC4318A22DDEBD45DF8802 /* PBXContainerItemProxy */;
 		};
+		DFDE436EC16909556E6147C1FB1AC696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Turbolinks;
+			target = 29B1A9BE7608BAEAAF7EE84D6CC9DD8D /* Turbolinks */;
+			targetProxy = 0281099F11A89EDB971466259FDFC52F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		06793499A12A64CA1D70D414E95DDCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527BD1C673A760D0DEA1A0433E145A85 /* Pods-Lilypad-development.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lilypad-development/Pods-Lilypad-development.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		06B1F950BA953DADB4775F1F2DD25EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4418C2A47248BF540D2E9462C015F62 /* Turbolinks.xcconfig */;
@@ -415,7 +605,7 @@
 		};
 		639C327A5FFDE5D2078767CED762AF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1842EAD6346475B07EFAA7CED6D76A1D /* Pods-Lilypad.debug.xcconfig */;
+			baseConfigurationReference = 1D9F622C2EF8667A2F6F5D29C18F4D1B /* Pods-Lilypad.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -437,7 +627,7 @@
 		};
 		66B9135019605C67BCFEAF0E3E10D366 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D4DDBAE9AFB549BB7032E00B283E4D2 /* Pods-Lilypad.release.xcconfig */;
+			baseConfigurationReference = 021076F6E9F9F08F38EF4189EE10995C /* Pods-Lilypad.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -457,6 +647,28 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		6778FDE2DCA4575B7B5E24113B3CC297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD21B1555B8522A8A24A579ADE3AFEEA /* Pods-Lilypad-staging.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lilypad-staging/Pods-Lilypad-staging.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -522,6 +734,29 @@
 			};
 			name = Debug;
 		};
+		9C66748A5323C30CD0AD4753C83BF5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E574C607E289CE4C87D07838A07B6286 /* Pods-Lilypad-development.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lilypad-development/Pods-Lilypad-development.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D361F64EC6F446CA6916CCF4F9405482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4418C2A47248BF540D2E9462C015F62 /* Turbolinks.xcconfig */;
@@ -548,9 +783,41 @@
 			};
 			name = Release;
 		};
+		D7CA5D069F9BAA95FA0E5931E63AEC75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3D74EE3AC7EA02121BD477867836E4 /* Pods-Lilypad-staging.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lilypad-staging/Pods-Lilypad-staging.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		24DE94B983F88F9DC67DDF018D8499E2 /* Build configuration list for PBXNativeTarget "Pods-Lilypad-staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6778FDE2DCA4575B7B5E24113B3CC297 /* Debug */,
+				D7CA5D069F9BAA95FA0E5931E63AEC75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -565,6 +832,15 @@
 			buildConfigurations = (
 				639C327A5FFDE5D2078767CED762AF18 /* Debug */,
 				66B9135019605C67BCFEAF0E3E10D366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D890100459701D371DA5B74E00C66B /* Build configuration list for PBXNativeTarget "Pods-Lilypad-development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06793499A12A64CA1D70D414E95DDCA6 /* Debug */,
+				9C66748A5323C30CD0AD4753C83BF5FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

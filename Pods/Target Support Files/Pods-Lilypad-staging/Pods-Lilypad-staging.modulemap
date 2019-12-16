@@ -1,0 +1,6 @@
+module Pods_Lilypad_staging {
+  umbrella header "Pods-Lilypad-staging-umbrella.h"
+
+  export *
+  module * { export * }
+}

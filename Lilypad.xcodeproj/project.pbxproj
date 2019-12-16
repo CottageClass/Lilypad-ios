@@ -7,24 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6293F6651CFB898D3483F586 /* libPods-Lilypad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B21BBBE95685CAA11E126CD /* libPods-Lilypad.a */; };
-		BE10B18B23744FCA0034E599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B18A23744FCA0034E599 /* AppDelegate.swift */; };
-		BE10B19123744FCD0034E599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19023744FCD0034E599 /* Assets.xcassets */; };
-		BE10B19423744FCD0034E599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19323744FCD0034E599 /* Preview Assets.xcassets */; };
-		BE10B19723744FCD0034E599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19523744FCD0034E599 /* LaunchScreen.storyboard */; };
-		BE10B1A023744FED0034E599 /* LPVisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19E23744FED0034E599 /* LPVisitableViewController.swift */; };
-		BE10B1A123744FED0034E599 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19F23744FED0034E599 /* PushNotificationManager.swift */; };
-		BE10B1A3237450140034E599 /* ScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B1A2237450140034E599 /* ScriptMessageHandler.swift */; };
-		BE6010F9237454F300739D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6010F8237454F200739D22 /* Main.storyboard */; };
-		BE6010FD2374A6C000739D22 /* LPVisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19E23744FED0034E599 /* LPVisitableViewController.swift */; };
-		BE6010FE2374A6C000739D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B18A23744FCA0034E599 /* AppDelegate.swift */; };
-		BE6010FF2374A6C000739D22 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19F23744FED0034E599 /* PushNotificationManager.swift */; };
-		BE6011002374A6C000739D22 /* ScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B1A2237450140034E599 /* ScriptMessageHandler.swift */; };
-		BE6011032374A6C000739D22 /* libPods-Lilypad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B21BBBE95685CAA11E126CD /* libPods-Lilypad.a */; };
-		BE6011052374A6C000739D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19523744FCD0034E599 /* LaunchScreen.storyboard */; };
-		BE6011062374A6C000739D22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19323744FCD0034E599 /* Preview Assets.xcassets */; };
-		BE6011072374A6C000739D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19023744FCD0034E599 /* Assets.xcassets */; };
-		BE6011082374A6C000739D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6010F8237454F200739D22 /* Main.storyboard */; };
 		BE6011122374A6C300739D22 /* LPVisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19E23744FED0034E599 /* LPVisitableViewController.swift */; };
 		BE6011132374A6C300739D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B18A23744FCA0034E599 /* AppDelegate.swift */; };
 		BE6011142374A6C300739D22 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19F23744FED0034E599 /* PushNotificationManager.swift */; };
@@ -34,12 +16,34 @@
 		BE60111B2374A6C300739D22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19323744FCD0034E599 /* Preview Assets.xcassets */; };
 		BE60111C2374A6C300739D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19023744FCD0034E599 /* Assets.xcassets */; };
 		BE60111D2374A6C300739D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6010F8237454F200739D22 /* Main.storyboard */; };
+		BE9C439F23A7E81600170927 /* LPVisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19E23744FED0034E599 /* LPVisitableViewController.swift */; };
+		BE9C43A023A7E81600170927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B18A23744FCA0034E599 /* AppDelegate.swift */; };
+		BE9C43A123A7E81600170927 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19F23744FED0034E599 /* PushNotificationManager.swift */; };
+		BE9C43A223A7E81600170927 /* ScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B1A2237450140034E599 /* ScriptMessageHandler.swift */; };
+		BE9C43A423A7E81600170927 /* libPods-Lilypad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B21BBBE95685CAA11E126CD /* libPods-Lilypad.a */; };
+		BE9C43A623A7E81600170927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19523744FCD0034E599 /* LaunchScreen.storyboard */; };
+		BE9C43A723A7E81600170927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19323744FCD0034E599 /* Preview Assets.xcassets */; };
+		BE9C43A823A7E81600170927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19023744FCD0034E599 /* Assets.xcassets */; };
+		BE9C43A923A7E81600170927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6010F8237454F200739D22 /* Main.storyboard */; };
+		BE9C43B323A7E8DA00170927 /* LPVisitableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19E23744FED0034E599 /* LPVisitableViewController.swift */; };
+		BE9C43B423A7E8DA00170927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B18A23744FCA0034E599 /* AppDelegate.swift */; };
+		BE9C43B523A7E8DA00170927 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B19F23744FED0034E599 /* PushNotificationManager.swift */; };
+		BE9C43B623A7E8DA00170927 /* ScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE10B1A2237450140034E599 /* ScriptMessageHandler.swift */; };
+		BE9C43B823A7E8DA00170927 /* libPods-Lilypad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B21BBBE95685CAA11E126CD /* libPods-Lilypad.a */; };
+		BE9C43BA23A7E8DA00170927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19523744FCD0034E599 /* LaunchScreen.storyboard */; };
+		BE9C43BB23A7E8DA00170927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19323744FCD0034E599 /* Preview Assets.xcassets */; };
+		BE9C43BC23A7E8DA00170927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10B19023744FCD0034E599 /* Assets.xcassets */; };
+		BE9C43BD23A7E8DA00170927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6010F8237454F200739D22 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B21BBBE95685CAA11E126CD /* libPods-Lilypad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lilypad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		420F60E6D398846BA2B384B1 /* Pods-Lilypad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lilypad.debug.xcconfig"; path = "Target Support Files/Pods-Lilypad/Pods-Lilypad.debug.xcconfig"; sourceTree = "<group>"; };
-		BE10B18723744FCA0034E599 /* Lilypad-development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lilypad-development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED63C6252B48A7011659820 /* Pods-Lilypad-development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lilypad-development.release.xcconfig"; path = "Target Support Files/Pods-Lilypad-development/Pods-Lilypad-development.release.xcconfig"; sourceTree = "<group>"; };
+		7046BF55131B9C86B9019CFA /* Pods-Lilypad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lilypad.release.xcconfig"; path = "Target Support Files/Pods-Lilypad/Pods-Lilypad.release.xcconfig"; sourceTree = "<group>"; };
+		826F84C7A2BBE5A153D26401 /* Pods-Lilypad-staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lilypad-staging.debug.xcconfig"; path = "Target Support Files/Pods-Lilypad-staging/Pods-Lilypad-staging.debug.xcconfig"; sourceTree = "<group>"; };
+		864B0022926C56879495BB8A /* Pods-Lilypad-staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lilypad-staging.release.xcconfig"; path = "Target Support Files/Pods-Lilypad-staging/Pods-Lilypad-staging.release.xcconfig"; sourceTree = "<group>"; };
+		9D9A66BC92293E4B3097785D /* libPods-Lilypad-staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lilypad-staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C74A3B0EB2578F94F2DF96 /* libPods-Lilypad-development.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lilypad-development.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE10B18A23744FCA0034E599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE10B19023744FCD0034E599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE10B19323744FCD0034E599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,36 +53,43 @@
 		BE10B19F23744FED0034E599 /* PushNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
 		BE10B1A2237450140034E599 /* ScriptMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptMessageHandler.swift; sourceTree = "<group>"; };
 		BE6010F8237454F200739D22 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BE60110D2374A6C000739D22 /* Lilypad-staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lilypad-staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6011222374A6C300739D22 /* Lilypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lilypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6011242374AB1100739D22 /* Lilypad-development.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lilypad-development.entitlements"; sourceTree = "<group>"; };
-		BE6011252374AB1600739D22 /* Lilypad-staging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lilypad-staging.entitlements"; sourceTree = "<group>"; };
 		BE6011262374AB1A00739D22 /* Lilypad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lilypad.entitlements; sourceTree = "<group>"; };
-		E6B5D5A262F21834AB29EBB3 /* Pods-Lilypad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lilypad.release.xcconfig"; path = "Target Support Files/Pods-Lilypad/Pods-Lilypad.release.xcconfig"; sourceTree = "<group>"; };
+		BE9C439523A7E31F00170927 /* Lilypad-staging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lilypad-staging.entitlements"; sourceTree = "<group>"; };
+		BE9C439623A7E71700170927 /* libPods-Lilypad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Lilypad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9C439823A7E71C00170927 /* libPods-Lilypad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Lilypad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9C439A23A7E7A600170927 /* libPods-Lilypad-staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Lilypad-staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9C43AE23A7E81600170927 /* Lilypad-development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lilypad-development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9C43AF23A7E81600170927 /* Lilypad copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Lilypad copy-Info.plist"; path = "/Users/arikardasis/cottageClass/Lilypad/Lilypad copy-Info.plist"; sourceTree = "<absolute>"; };
+		BE9C43C223A7E8DA00170927 /* Lilypad-staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lilypad-staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9C43C323A7E8DA00170927 /* Lilypad copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Lilypad copy2-Info.plist"; path = "/Users/arikardasis/cottageClass/Lilypad/Lilypad copy2-Info.plist"; sourceTree = "<absolute>"; };
+		DAB8DA9A9D1A7C71B14912D3 /* Pods-Lilypad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lilypad.debug.xcconfig"; path = "Target Support Files/Pods-Lilypad/Pods-Lilypad.debug.xcconfig"; sourceTree = "<group>"; };
+		E95F2C6EB076BFF90D13DF86 /* Pods-Lilypad-development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lilypad-development.debug.xcconfig"; path = "Target Support Files/Pods-Lilypad-development/Pods-Lilypad-development.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE10B18423744FCA0034E599 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6293F6651CFB898D3483F586 /* libPods-Lilypad.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE6011022374A6C000739D22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6011032374A6C000739D22 /* libPods-Lilypad.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BE6011172374A6C300739D22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE6011182374A6C300739D22 /* libPods-Lilypad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9C43A323A7E81600170927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9C43A423A7E81600170927 /* libPods-Lilypad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9C43B723A7E8DA00170927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9C43B823A7E8DA00170927 /* libPods-Lilypad.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +99,12 @@
 		BC7DD4EAA29248D4F6F2D7E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE9C439A23A7E7A600170927 /* libPods-Lilypad-staging.a */,
+				BE9C439823A7E71C00170927 /* libPods-Lilypad.a */,
+				BE9C439623A7E71700170927 /* libPods-Lilypad.a */,
 				0B21BBBE95685CAA11E126CD /* libPods-Lilypad.a */,
+				A0C74A3B0EB2578F94F2DF96 /* libPods-Lilypad-development.a */,
+				9D9A66BC92293E4B3097785D /* libPods-Lilypad-staging.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,21 +112,21 @@
 		BE10B17E23744FCA0034E599 = {
 			isa = PBXGroup;
 			children = (
-				BE6011252374AB1600739D22 /* Lilypad-staging.entitlements */,
-				BE6011242374AB1100739D22 /* Lilypad-development.entitlements */,
 				BE10B18923744FCA0034E599 /* Lilypad */,
 				BE10B18823744FCA0034E599 /* Products */,
 				CC5A0A9FF47C7AD2A321BA40 /* Pods */,
 				BC7DD4EAA29248D4F6F2D7E4 /* Frameworks */,
+				BE9C43AF23A7E81600170927 /* Lilypad copy-Info.plist */,
+				BE9C43C323A7E8DA00170927 /* Lilypad copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		BE10B18823744FCA0034E599 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE10B18723744FCA0034E599 /* Lilypad-development.app */,
-				BE60110D2374A6C000739D22 /* Lilypad-staging.app */,
 				BE6011222374A6C300739D22 /* Lilypad.app */,
+				BE9C43AE23A7E81600170927 /* Lilypad-development.app */,
+				BE9C43C223A7E8DA00170927 /* Lilypad-staging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +134,8 @@
 		BE10B18923744FCA0034E599 /* Lilypad */ = {
 			isa = PBXGroup;
 			children = (
+				BE9C439523A7E31F00170927 /* Lilypad-staging.entitlements */,
+				BE6011242374AB1100739D22 /* Lilypad-development.entitlements */,
 				BE6011262374AB1A00739D22 /* Lilypad.entitlements */,
 				BE10B1A2237450140034E599 /* ScriptMessageHandler.swift */,
 				BE10B19E23744FED0034E599 /* LPVisitableViewController.swift */,
@@ -143,8 +161,12 @@
 		CC5A0A9FF47C7AD2A321BA40 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				420F60E6D398846BA2B384B1 /* Pods-Lilypad.debug.xcconfig */,
-				E6B5D5A262F21834AB29EBB3 /* Pods-Lilypad.release.xcconfig */,
+				DAB8DA9A9D1A7C71B14912D3 /* Pods-Lilypad.debug.xcconfig */,
+				7046BF55131B9C86B9019CFA /* Pods-Lilypad.release.xcconfig */,
+				E95F2C6EB076BFF90D13DF86 /* Pods-Lilypad-development.debug.xcconfig */,
+				4ED63C6252B48A7011659820 /* Pods-Lilypad-development.release.xcconfig */,
+				826F84C7A2BBE5A153D26401 /* Pods-Lilypad-staging.debug.xcconfig */,
+				864B0022926C56879495BB8A /* Pods-Lilypad-staging.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,44 +174,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE10B18623744FCA0034E599 /* Lilypad-development */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE10B19B23744FCD0034E599 /* Build configuration list for PBXNativeTarget "Lilypad-development" */;
-			buildPhases = (
-				050E1A1A65C8EB3DD7FD1934 /* [CP] Check Pods Manifest.lock */,
-				BE10B18323744FCA0034E599 /* Sources */,
-				BE10B18423744FCA0034E599 /* Frameworks */,
-				BE10B18523744FCA0034E599 /* Resources */,
-				B25DCB3BD0C7223694D24D4A /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Lilypad-development";
-			productName = Lilypad;
-			productReference = BE10B18723744FCA0034E599 /* Lilypad-development.app */;
-			productType = "com.apple.product-type.application";
-		};
-		BE6010FA2374A6C000739D22 /* Lilypad-staging */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE60110A2374A6C000739D22 /* Build configuration list for PBXNativeTarget "Lilypad-staging" */;
-			buildPhases = (
-				BE6010FB2374A6C000739D22 /* [CP] Check Pods Manifest.lock */,
-				BE6010FC2374A6C000739D22 /* Sources */,
-				BE6011022374A6C000739D22 /* Frameworks */,
-				BE6011042374A6C000739D22 /* Resources */,
-				BE6011092374A6C000739D22 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Lilypad-staging";
-			productName = Lilypad;
-			productReference = BE60110D2374A6C000739D22 /* Lilypad-staging.app */;
-			productType = "com.apple.product-type.application";
-		};
 		BE60110F2374A6C300739D22 /* Lilypad */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE60111F2374A6C300739D22 /* Build configuration list for PBXNativeTarget "Lilypad" */;
@@ -209,6 +193,44 @@
 			productReference = BE6011222374A6C300739D22 /* Lilypad.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BE9C439C23A7E81600170927 /* Lilypad-development */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9C43AB23A7E81600170927 /* Build configuration list for PBXNativeTarget "Lilypad-development" */;
+			buildPhases = (
+				BE9C439D23A7E81600170927 /* [CP] Check Pods Manifest.lock */,
+				BE9C439E23A7E81600170927 /* Sources */,
+				BE9C43A323A7E81600170927 /* Frameworks */,
+				BE9C43A523A7E81600170927 /* Resources */,
+				BE9C43AA23A7E81600170927 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lilypad-development";
+			productName = Lilypad;
+			productReference = BE9C43AE23A7E81600170927 /* Lilypad-development.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE9C43B023A7E8DA00170927 /* Lilypad-staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9C43BF23A7E8DA00170927 /* Build configuration list for PBXNativeTarget "Lilypad-staging" */;
+			buildPhases = (
+				BE9C43B123A7E8DA00170927 /* [CP] Check Pods Manifest.lock */,
+				BE9C43B223A7E8DA00170927 /* Sources */,
+				BE9C43B723A7E8DA00170927 /* Frameworks */,
+				BE9C43B923A7E8DA00170927 /* Resources */,
+				BE9C43BE23A7E8DA00170927 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lilypad-staging";
+			productName = Lilypad;
+			productReference = BE9C43C223A7E8DA00170927 /* Lilypad-staging.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,11 +240,6 @@
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Lilypad;
-				TargetAttributes = {
-					BE10B18623744FCA0034E599 = {
-						CreatedOnToolsVersion = 11.1;
-					};
-				};
 			};
 			buildConfigurationList = BE10B18223744FCA0034E599 /* Build configuration list for PBXProject "Lilypad" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -237,36 +254,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE10B18623744FCA0034E599 /* Lilypad-development */,
-				BE6010FA2374A6C000739D22 /* Lilypad-staging */,
 				BE60110F2374A6C300739D22 /* Lilypad */,
+				BE9C439C23A7E81600170927 /* Lilypad-development */,
+				BE9C43B023A7E8DA00170927 /* Lilypad-staging */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE10B18523744FCA0034E599 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE10B19723744FCD0034E599 /* LaunchScreen.storyboard in Resources */,
-				BE10B19423744FCD0034E599 /* Preview Assets.xcassets in Resources */,
-				BE10B19123744FCD0034E599 /* Assets.xcassets in Resources */,
-				BE6010F9237454F300739D22 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE6011042374A6C000739D22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6011052374A6C000739D22 /* LaunchScreen.storyboard in Resources */,
-				BE6011062374A6C000739D22 /* Preview Assets.xcassets in Resources */,
-				BE6011072374A6C000739D22 /* Assets.xcassets in Resources */,
-				BE6011082374A6C000739D22 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BE6011192374A6C300739D22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,87 +273,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE9C43A523A7E81600170927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9C43A623A7E81600170927 /* LaunchScreen.storyboard in Resources */,
+				BE9C43A723A7E81600170927 /* Preview Assets.xcassets in Resources */,
+				BE9C43A823A7E81600170927 /* Assets.xcassets in Resources */,
+				BE9C43A923A7E81600170927 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9C43B923A7E8DA00170927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9C43BA23A7E8DA00170927 /* LaunchScreen.storyboard in Resources */,
+				BE9C43BB23A7E8DA00170927 /* Preview Assets.xcassets in Resources */,
+				BE9C43BC23A7E8DA00170927 /* Assets.xcassets in Resources */,
+				BE9C43BD23A7E8DA00170927 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		050E1A1A65C8EB3DD7FD1934 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Lilypad-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B25DCB3BD0C7223694D24D4A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE6010FB2374A6C000739D22 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Lilypad-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE6011092374A6C000739D22 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BE6011102374A6C300739D22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,31 +337,87 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BE9C439D23A7E81600170927 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lilypad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9C43AA23A7E81600170927 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9C43B123A7E8DA00170927 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lilypad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9C43BE23A7E8DA00170927 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lilypad/Pods-Lilypad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE10B18323744FCA0034E599 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE10B1A023744FED0034E599 /* LPVisitableViewController.swift in Sources */,
-				BE10B18B23744FCA0034E599 /* AppDelegate.swift in Sources */,
-				BE10B1A123744FED0034E599 /* PushNotificationManager.swift in Sources */,
-				BE10B1A3237450140034E599 /* ScriptMessageHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE6010FC2374A6C000739D22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6010FD2374A6C000739D22 /* LPVisitableViewController.swift in Sources */,
-				BE6010FE2374A6C000739D22 /* AppDelegate.swift in Sources */,
-				BE6010FF2374A6C000739D22 /* PushNotificationManager.swift in Sources */,
-				BE6011002374A6C000739D22 /* ScriptMessageHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BE6011112374A6C300739D22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,6 +426,28 @@
 				BE6011132374A6C300739D22 /* AppDelegate.swift in Sources */,
 				BE6011142374A6C300739D22 /* PushNotificationManager.swift in Sources */,
 				BE6011152374A6C300739D22 /* ScriptMessageHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9C439E23A7E81600170927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9C439F23A7E81600170927 /* LPVisitableViewController.swift in Sources */,
+				BE9C43A023A7E81600170927 /* AppDelegate.swift in Sources */,
+				BE9C43A123A7E81600170927 /* PushNotificationManager.swift in Sources */,
+				BE9C43A223A7E81600170927 /* ScriptMessageHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9C43B223A7E8DA00170927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9C43B323A7E8DA00170927 /* LPVisitableViewController.swift in Sources */,
+				BE9C43B423A7E8DA00170927 /* AppDelegate.swift in Sources */,
+				BE9C43B523A7E8DA00170927 /* PushNotificationManager.swift in Sources */,
+				BE9C43B623A7E8DA00170927 /* ScriptMessageHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,109 +579,9 @@
 			};
 			name = Release;
 		};
-		BE10B19C23744FCD0034E599 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 420F60E6D398846BA2B384B1 /* Pods-Lilypad.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Lilypad-development.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
-				DEVELOPMENT_TEAM = H2N26DZ69G;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Lilypad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Turbolinks/Turbolinks.modulemap\" -DENVIRONMENT_DEVELOPMENT";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joinlilypad.lilypad;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BE10B19D23744FCD0034E599 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6B5D5A262F21834AB29EBB3 /* Pods-Lilypad.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Lilypad-development.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
-				DEVELOPMENT_TEAM = H2N26DZ69G;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Lilypad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Turbolinks/Turbolinks.modulemap\" -DENVIRONMENT_DEVELOPMENT";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joinlilypad.lilypad;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BE60110B2374A6C000739D22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 420F60E6D398846BA2B384B1 /* Pods-Lilypad.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Lilypad-staging.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
-				DEVELOPMENT_TEAM = H2N26DZ69G;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Lilypad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Turbolinks/Turbolinks.modulemap\" -DENVIRONMENT_STAGING";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joinlilypad.lilypad;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BE60110C2374A6C000739D22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6B5D5A262F21834AB29EBB3 /* Pods-Lilypad.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Lilypad-staging.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
-				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
-				DEVELOPMENT_TEAM = H2N26DZ69G;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Lilypad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Turbolinks/Turbolinks.modulemap\" -DENVIRONMENT_STAGING";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joinlilypad.lilypad;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		BE6011202374A6C300739D22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 420F60E6D398846BA2B384B1 /* Pods-Lilypad.debug.xcconfig */;
+			baseConfigurationReference = DAB8DA9A9D1A7C71B14912D3 /* Pods-Lilypad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lilypad/Lilypad.entitlements;
@@ -689,7 +606,7 @@
 		};
 		BE6011212374A6C300739D22 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6B5D5A262F21834AB29EBB3 /* Pods-Lilypad.release.xcconfig */;
+			baseConfigurationReference = 7046BF55131B9C86B9019CFA /* Pods-Lilypad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lilypad/Lilypad.entitlements;
@@ -712,6 +629,106 @@
 			};
 			name = Release;
 		};
+		BE9C43AC23A7E81600170927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB8DA9A9D1A7C71B14912D3 /* Pods-Lilypad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lilypad/Lilypad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
+				DEVELOPMENT_TEAM = H2N26DZ69G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lilypad copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Turbolinks/Turbolinks.modulemap\" -DENVIRONMENT_DEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinlilypad.lilypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE9C43AD23A7E81600170927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7046BF55131B9C86B9019CFA /* Pods-Lilypad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lilypad/Lilypad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
+				DEVELOPMENT_TEAM = H2N26DZ69G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lilypad copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Turbolinks/Turbolinks.modulemap\" -DENVIRONMENT_DEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinlilypad.lilypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE9C43C023A7E8DA00170927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB8DA9A9D1A7C71B14912D3 /* Pods-Lilypad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lilypad/Lilypad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
+				DEVELOPMENT_TEAM = H2N26DZ69G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lilypad copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Turbolinks/Turbolinks.modulemap\" -DENVIRONMENT_STAGING";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinlilypad.lilypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE9C43C123A7E8DA00170927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7046BF55131B9C86B9019CFA /* Pods-Lilypad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lilypad/Lilypad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "\"Lilypad/Preview Content\"";
+				DEVELOPMENT_TEAM = H2N26DZ69G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lilypad copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Turbolinks/Turbolinks.modulemap\" -DENVIRONMENT_STAGING";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinlilypad.lilypad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -724,29 +741,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE10B19B23744FCD0034E599 /* Build configuration list for PBXNativeTarget "Lilypad-development" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE10B19C23744FCD0034E599 /* Debug */,
-				BE10B19D23744FCD0034E599 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE60110A2374A6C000739D22 /* Build configuration list for PBXNativeTarget "Lilypad-staging" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE60110B2374A6C000739D22 /* Debug */,
-				BE60110C2374A6C000739D22 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BE60111F2374A6C300739D22 /* Build configuration list for PBXNativeTarget "Lilypad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE6011202374A6C300739D22 /* Debug */,
 				BE6011212374A6C300739D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9C43AB23A7E81600170927 /* Build configuration list for PBXNativeTarget "Lilypad-development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9C43AC23A7E81600170927 /* Debug */,
+				BE9C43AD23A7E81600170927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9C43BF23A7E8DA00170927 /* Build configuration list for PBXNativeTarget "Lilypad-staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9C43C023A7E8DA00170927 /* Debug */,
+				BE9C43C123A7E8DA00170927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
