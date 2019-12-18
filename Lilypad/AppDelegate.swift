@@ -38,7 +38,18 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
 
         return sess
     }()
-
+    
+    func application(_ application: UIApplication,
+                     continue userActivity: NSUserActivity,
+                     restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+      guard userActivity.activityType == NSUserActivityTypeBrowsingWeb,
+          let incomingURL = userActivity.webpageURL else {
+              return false
+      }
+      visit(URL: incomingURL)
+      return true
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
          var url: String
 //         var contacts = [CNContact]()
@@ -114,6 +125,8 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
          dispatchMessageToWebkit(dataDict as AnyObject)
      }
     
+
+    
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let tokenParts = deviceToken.map { data -> String in
             return String(format: "%02.2hhx", data)
@@ -161,7 +174,7 @@ class AppDelegate : UIResponder, UIApplicationDelegate, UNUserNotificationCenter
     
     func visit(URL:URL) {
         let visitableViewController = LPVisitableViewController(url: URL)
-        navigationController.pushViewController(visitableViewController, animated: true)
+        navigationController.pushViewController(visitableViewController, animated: false)
         session.visit(visitableViewController)
     }
 }
